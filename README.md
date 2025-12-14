@@ -99,6 +99,6 @@ Consistency and discipline matter more than volume.
 ## 👤 Author
 
 **Krowey Richmond Borquaye**
-Frontend Developer (in progress)
+Javascript Developer (in progress)
 
 GitHub: [Richmond](https://github.com/krowey-richmond)
