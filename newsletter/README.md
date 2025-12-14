@@ -10,32 +10,42 @@
 Responsive newsletter subscription form with smooth transitions and mobile optimization.
 
 ## Features
+
 - Mobile-first responsive design
 - Email validation
 - Hover/focus states
 - Clean shadow effects
 
 ## Built With
+
 - HTML5
 - CSS3 (Flexbox)
 - Google Fonts (Poppins)
 
 ## Key Code
-```css
 
+```css
 @media (max-width: 480px) {
-  .main { width: 300px }
-  h1 { font-size: 1.25rem }
+  .main {
+    width: 300px;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
 }
 ```
 
 ## Usage
+
 1. Clone repo
 2. Open index.html
 3. Test form responsiveness
 
-## Author
+## 👤 Author
 
-- GitHub: [77Kromo](https://github.com/77Kromo)
+**Krowey Richmond Borquaye**
+Javascript Developer (in progress)
+
+- GitHub: [Richmond](https://github.com/krowey-richmond)
 - X : [Kromo77](https://x.com/kromo772004)
-- LinkedIn: Krowey Richmond Borquaye
+- LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)

@@ -101,7 +101,7 @@ Consistency and discipline matter more than volume.
 ## 👤 Author
 
 **Krowey Richmond Borquaye**  
-JavaScript Developer (in progress)
+JavaScript Developer 
 
 - GitHub: [@krowey-richmond](https://github.com/krowey-richmond)
 - Live Portfolio: [devchallenges-projects.netlify.app](https://devchallenges-projects.netlify.app/)

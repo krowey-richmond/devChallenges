@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  transition: all 0.2s ease-in-out;
+
   box-sizing: border-box;
 }
 
@@ -9,36 +11,35 @@ body {
   min-height: 100dvh;
   min-height: 100svh;
   font-family: Poppins, sans-serif;
-  font-size: 16px;
+  font-size: clamp(0.8125rem, 0.75rem + 0.3125vw, 1rem);
   background-color: #ffffff;
   display: flex;
   justify-content: center;
+  transition: all 0.2s ease-in-out;
   align-items: center;
 }
 
-
 .main {
-  width: min(500px, 85%);
-  margin: 40px auto;
-  height: auto;
+  width: min(500px, 88%);
   text-align: center;
+  transition: all 0.2s ease-in-out;
   background-color: #ffffff;
 }
 
 img {
-  width: 50px;
+  width: min(6rem, 15%);
   height: auto;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: clamp(1.25rem, 0.6667rem + 2.9167vw, 3rem);
   margin: 20px;
   font-weight: 600;
   color: #000;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem);
   margin: 0 10px 20px;
   font-weight: 400;
   color: #6c727f;
@@ -47,21 +48,22 @@ h2 {
 form {
   width: 90%;
   margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0px 20px 30px 0px rgba(14, 14, 14, 0.09),
-    0px 8px 12px 0px rgba(22, 21, 21, 0.175);
+  padding: clamp(0.625rem, 0.3125rem + 1.5625vw, 1.5625rem);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   border-radius: 5px;
   background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 input[type="email"] {
   display: block;
   width: 80%;
-  padding: 10px;
-  margin: 20px auto;
+  padding: clamp(0.5rem, 0.4167rem + 0.4167vw, 0.75rem);
   border-radius: 5px;
   border: 1px solid rgb(209, 213, 219);
-  font-size: 16px;
 }
 
 input[type="email"]::placeholder {
@@ -78,13 +80,13 @@ input[type="email"]:focus {
 button {
   display: block;
   width: 80%;
-  padding: 15px;
-  margin: 20px auto;
+  padding: clamp(0.5rem, 0.4167rem + 0.4167vw, 0.75rem);
+
   border-radius: 5px;
   border: none;
   background-color: #284bce;
   color: white;
-  font-size: 16px;
+  cursor: pointer;
   font-weight: 600;
 }
 
@@ -93,7 +95,7 @@ button:hover {
 }
 
 .confidentiality {
-  font-size: 0.875rem;
+  font-size: clamp(0.625rem, 0.5417rem + 0.4167vw, 0.875rem);
   font-weight: 400;
   color: #6c727f;
 }
@@ -116,99 +118,8 @@ button:hover {
 #back-btn:hover {
   transform: scale(1.05);
 }
+
 #back-btn:focus {
   outline: 2px solid #4e80ee;
   outline-offset: 2px;
 }
-/* 
-@media screen and (max-width: 768px) {
-    .main {
-        width: 500px;
-        transition: width 0.3s ease;
-    }
-
-    img {
-        width: 10%;
-        transition: width 0.3s ease;
-    }
-
-    h1 {
-        font-size: 2rem;
-        transition: font-size 0.3s ease;
-    }
-
-    h2 {
-        font-size: 1.125rem;
-        transition: font-size 0.3s ease;
-    }
-    form {
-        width: 80%;
-        padding: 10px;
-        transition: width 0.3s ease, padding 0.3s ease;
-    }
-    input[type="email"] {
-        width: 80%;
-        margin: 10px auto;
-        transition: width 0.3s ease, margin 0.3s ease;
-    }
-    button {
-        width: 80%;
-        padding: 10px;
-        font-size: 0.85rem;
-        transition: width 0.3s ease, padding 0.3s ease, font-size 0.3s ease;
-    }
-
-    .confidentiality {
-        font-size: 0.75rem;
-        transition: font-size 0.3s ease;
-    }
-
-    .author-info {
-        font-size: 12px;
-        margin: 10px 15px;
-        transition: font-size 0.3s ease, margin 0.3s ease;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .main {
-        width: 300px;
-        transition: width 0.3s ease;
-    }
-
-    img {
-        width: 15%;
-        transition: width 0.3s ease;
-    }
-
-    h1 {
-        font-size: 1.25rem;
-        transition: font-size 0.3s ease;
-    }
-
-    h2 {
-        font-size: 1rem;
-        transition: font-size 0.3s ease;
-    }
-    form {
-        width: 90%;
-        padding: 5px;
-        transition: width 0.3s ease, padding 0.3s ease;
-    }
-    input[type="email"] {
-        width: 90%;
-        margin: 5px auto;
-        font-size: 0.875rem;
-        transition: width 0.3s ease, margin 0.3s ease, font-size 0.3s ease;
-    }
-    button {
-        width: 90%;
-        padding: 5px;
-        transition: width 0.3s ease, padding 0.3s ease;
-    }
-
-    .confidentiality {
-        font-size: 0.625rem;
-        transition: font-size 0.3s ease;
-    }
-} */
