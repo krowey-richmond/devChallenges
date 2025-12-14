@@ -19,14 +19,19 @@ body {
   flex-direction: column;
   line-height: 1.2;
 }
-
 header {
+  width: 100%;
+  background-color: #f8fafc;
+  
+}
+
+.head-div {
   text-align: center;
   margin: 0;
   padding: 0;
   padding-block: clamp(2rem, 3.333vw + 1.333rem, 4rem);
   padding-inline: clamp(1rem, -1.667vw + 1.333rem, 0rem);
-  background-color: #f8fafc;
+
   max-width: 640px;
   margin: 0 auto;
 }
