@@ -25,13 +25,13 @@ header {
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-block: clamp(3rem, 3.333vw + 2.333rem, 5rem);
+  padding-block:clamp(2rem, 3.333vw + 1.333rem, 4rem);
   padding-inline: clamp(1rem, -1.667vw + 1.333rem, 0rem);
   background-color: #f8fafc;
 }
 
 header h1 {
-  font-size: clamp(1.75rem, 2.083vw + 1.333rem, 3rem);
+  font-size:clamp(1.75rem, 1.667vw + 1.417rem, 2.75rem);
   margin-bottom: clamp(0.5rem, 1.167vw + 0.267rem, 1.2rem);
   padding: 0;
 
