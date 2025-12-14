@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +16,9 @@ body {
   background-color: #ffffff;
   max-width: 640px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
 }
 
 header {
@@ -83,13 +90,13 @@ li > span {
 }
 
 /* footer styles  */
+/* footer styles */
 footer {
-  position: relative;
   width: 100%;
   text-align: center;
   padding: clamp(1rem, 1.667vw + 0.667rem, 2rem);
-  bottom: 0;
-  margin: 0;
+
+  margin-top: auto;
   background-color: #f8fafc;
   color: #030616;
 }
@@ -98,6 +105,18 @@ footer {
 .author-info a {
   text-decoration: none;
   color: #4e80ee;
+  transition: color 0.2s ease;
+}
+
+.link-1:hover,
+.author-info a:hover {
+  color: #3d6acc;
+}
+
+.link-1:focus,
+.author-info a:focus {
+  outline: 2px solid #4e80ee;
+  outline-offset: 2px;
 }
 
 #back-btn {
@@ -116,5 +135,9 @@ footer {
 }
 
 #back-btn:hover {
-  scale: 1.05;
+  transform: scale(1.05);
+}
+#back-btn:focus {
+  outline: 2px solid #4e80ee;
+  outline-offset: 2px;
 }
