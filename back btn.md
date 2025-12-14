@@ -32,3 +32,4 @@ Javascript Developer
   outline-offset: 2px;
 }
 ```
+![Screenshot](simple-faq/resources/screenshot.png)

@@ -105,4 +105,4 @@ Javascript Developer (in progress)
 - LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)
 
 [def]: https://devchallenges.io/challenges-dashboard
-[def2]: /resources/screenshot.png
+[def2]: ./resources/screenshot.png
