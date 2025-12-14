@@ -1,8 +1,7 @@
 ## 👤 Author
 
 **Krowey Richmond Borquaye**
-Javascript Developer (in progress)
-
+Javascript Developer 
 - GitHub: [Richmond](https://github.com/krowey-richmond)
 - X : [Kromo77](https://x.com/kromo772004)
 - LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)
