@@ -101,4 +101,6 @@ Consistency and discipline matter more than volume.
 **Krowey Richmond Borquaye**
 Javascript Developer (in progress)
 
-GitHub: [Richmond](https://github.com/krowey-richmond)
+- GitHub: [Richmond](https://github.com/krowey-richmond)
+- X : [Kromo77](https://x.com/kromo772004)
+- LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)

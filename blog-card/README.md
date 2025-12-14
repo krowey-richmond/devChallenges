@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://min-blog-card.netlify.app/">
+    <a href="https://devchallenges-projects.netlify.app/blog-card/">
       Live Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/77Kromo/Minimal-Blog-Card">
+    <a href="https://github.com/krowey-richmond/devChallenges/tree/main/blog-card">
       Solution Code
     </a>
     <span> | </span>
@@ -95,11 +95,14 @@ minimal-blog-card/
 - Google Fonts for the Sora typeface
 - CSS Tricks for responsive design techniques
 
-## Author
+## 👤 Author
 
-- GitHub: [77Kromo](https://github.com/77Kromo)
+**Krowey Richmond Borquaye**
+Javascript Developer (in progress)
+
+- GitHub: [Richmond](https://github.com/krowey-richmond)
 - X : [Kromo77](https://x.com/kromo772004)
-- LinkedIn: Krowey Richmond Borquaye
+- LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)
 
 [def]: https://devchallenges.io/challenges-dashboard
 [def2]: /resources/screenshot.png
