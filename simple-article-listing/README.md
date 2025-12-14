@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://simple-article-list.netlify.app/">
+    <a href="https://devchallenges-projects.netlify.app/simple-article-listing/">
       Live Demo
     </a>
     <span> | </span>
@@ -98,19 +98,20 @@ simple-article-listing/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/77Kromo/simple-article-listing.git
+   git clone https://github.com/krowey-richmond/devChallenges.git
    ```
 2. Open `index.html` in your browser
 3. Resize browser to see responsive behavior
 
-## Author
+## 👤 Author
 
-- GitHub: [@77Kromo](https://github.com/77Kromo)
-- Frontend Mentor: [@77Kromo](https://www.frontendmentor.io/profile/77Kromo)
-- Twitter: [@kromo772004](https://x.com/kromo772004)
-- LinkedIn: [Richmond](https://www.linkedin.com/in/krowey-richmond-borquaye77/)
-- DevChallenges: [@77Kromo](https://devchallenges.io/portfolio/77Kromo)
+**Krowey Richmond Borquaye**
 
+- GitHub: [Richmond](https://github.com/krowey-richmond)
+- X : [Kromo77](https://x.com/kromo772004)
+- LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)
+- Frontend Mentor: [@77Kromo](https://www.frontendmentor.io/profile/krowey-richmond)
+- DevChallenges: [@77Kromo](https://devchallenges.io/profile/90c5b7e3-be42-4213-a713-cfb0ac4c18bd)
 ## Acknowledgments
 
 - [devChallenges](https://devchallenges.io) for the design inspiration

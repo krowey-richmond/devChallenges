@@ -1,10 +1,12 @@
 ## 👤 Author
 
 **Krowey Richmond Borquaye**
-Javascript Developer 
+
 - GitHub: [Richmond](https://github.com/krowey-richmond)
 - X : [Kromo77](https://x.com/kromo772004)
 - LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)
+- Frontend Mentor: [@77Kromo](https://www.frontendmentor.io/profile/krowey-richmond)
+- DevChallenges: [@77Kromo](https://devchallenges.io/profile/90c5b7e3-be42-4213-a713-cfb0ac4c18bd)
 
 <a id="back-btn" href="../index.html">Back</a>
 
