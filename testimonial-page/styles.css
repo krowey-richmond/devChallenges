@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-family: "Sora", sans-serif;
+}
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  font-size: clamp(0.8rem, 0.7333rem + 0.3333vw, 1rem);
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+main {
+  width: min(100%, 1000px);
+}
+
+.testimonials {
+  display: flex;
+  gap: clamp(1.5rem, 0.853vw + 1.28rem, 2rem);
+
+  flex-direction: column;
+  width: 100%;
+  padding-block: clamp(1.5rem, 1.0833rem + 2.0833vw, 2.75rem);
+  padding-inline: clamp(1rem, 1.3333rem + -1.6667vw, 0rem);
+}
+.reviewers {
+  display: flex;
+  gap: clamp(0.625rem, 0.4167rem + 1.0417vw, 1.25rem);
+  flex-direction: column;
+}
+.review-star {
+  background-color: #f5c044;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: clamp(1.5rem, 1.1667rem + 1.6667vw, 2.5rem);
+
+  color: #18181b;
+}
+
+.review-description {
+  color: #52525a;
+  letter-spacing: 1px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+li {
+  color: #52525a;
+
+  display: flex;
+  align-items: center;
+  font-size: clamp(0.8rem, 0.7333rem + 0.3333vw, 1rem);
+}
+
+li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url("./resources/Done_ring_round_fill.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.review {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 0.6667rem + 1.6667vw, 2rem);
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #fff;
+  padding: 1rem;
+
+  border-radius: 10px;
+  box-shadow: rgba(206, 206, 225, 0.2) 0px 7px 29px 0px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: clamp(3.75rem, 3.3333rem + 2.0833vw, 5rem);
+  height: auto;
+  object-fit: cover;
+}
+.logo .stars {
+  display: flex;
+  gap: 3px;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.reviewer {
+  font-weight: 600;
+  color: #18181b;
+  font-size: clamp(1rem, 0.8333rem + 0.8333vw, 1.5rem);
+}
+
+.review-text {
+  color: #52525a;
+  font-size: clamp(0.8rem, 0.7333rem + 0.3333vw, 1rem);
+}
+.review-recommend {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (width > 640px) {
+  .review {
+    display: block;
+    position: relative;
+    min-height: 45vh;
+  }
+
+  .review-card {
+    position: absolute;
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+  .review-card:nth-child(1) {
+    top: 0;
+    left: 42%;
+  }
+  .review-card:nth-child(2) {
+    left: 22%;
+    bottom: 0;
+  }
+}
+
+@media screen and (width > 1000px) {
+  main {
+    .testimonials {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+    }
+    .reviewers {
+      flex: 1 0 50%;
+      margin: 0;
+      margin-right: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .review {
+      flex: 1 0 50%;
+      margin: 0;
+
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+  }
+  .review-card:nth-child(1) {
+    top: 0;
+    left: 35%;
+  }
+  .review-card:nth-child(2) {
+    left: 15%;
+    bottom: 0;
+  }
+}
