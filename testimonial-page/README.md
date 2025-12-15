@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://testimonial-page-master.netlify.app/">
+    <a href="https://devchallenges-projects.netlify.app/testimonial-page/">
       Demo
     </a>
     <span> | </span>
@@ -31,7 +31,7 @@
 
 ## Overview
 
-[![Screenshot of the Testimonial Page](./assets/screenshot.png)](https://testimonial-page-master.netlify.app/)
+[![Screenshot of the Testimonial Page](./assets/screenshot.png)](https://devchallenges-projects.netlify.app/testimonial-page/)
 
 This testimonial page was created as a solution to the devChallenges.io Testimonial Page challenge. The page features a responsive layout that displays reviewer information, star ratings, and testimonials from different companies.
 
@@ -65,7 +65,12 @@ This testimonial page was created as a solution to the devChallenges.io Testimon
 - Semantic HTML structure
 - Accessibility considerations
 
-## Contact
+## 👤 Author
 
-- GitHub [@77Kromo](https://github.com/77Kromo)
-- Twitter [@kromo772004](https://x.com/kromo772004)
+**Krowey Richmond Borquaye**
+
+- GitHub: [Richmond](https://github.com/krowey-richmond)
+- X : [Kromo77](https://x.com/kromo772004)
+- LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)
+- Frontend Mentor: [@77Kromo](https://www.frontendmentor.io/profile/krowey-richmond)
+- DevChallenges: [@77Kromo](https://devchallenges.io/profile/90c5b7e3-be42-4213-a713-cfb0ac4c18bd)
