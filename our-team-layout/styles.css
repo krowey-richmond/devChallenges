@@ -21,69 +21,61 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-template-rows: 300px;
-  grid-auto-rows: 350px;
-  width: 95%;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+  grid-template-rows: auto;
+  grid-auto-rows: 300px;
+  width: 90%;
   border-radius: 2rem;
-  margin-block: clamp(1.7rem, 1.721vw + 1.149rem, 3.5rem);
-
+  margin-block: clamp(3rem, 4rem + -5vw, 0rem);
   background-color: #f3f4f6;
+
   @media screen and (width>=640px) {
-    grid-template-rows: 300px;
-    grid-auto-rows: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+  }
+  @media screen and (width>=1000px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 300px);
   }
 }
+
 .team {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   background-image: url("resources/Background_decor.svg");
+  background-color: #4e80ee;
   border-radius: 2rem 2rem 0 0;
-  padding: 2rem;
+  padding: clamp(1.5rem, 1.3333rem + 0.8333vw, 2rem);
   background-color: #f3f4f6;
+  gap: 1rem;
 
-  @media screen and (min-width: 632px) and (max-width: 680px) {
-    margin: 0;
-    padding: 1.35rem;
-    gap: 1rem;
-  }
-  @media screen and (width>=948px) {
+  @media screen and (width>=640px) {
     grid-column: 1 / -1;
     bg-image: url("resources/Background_decor@2x.png");
   }
-  @media screen and (width>=1263px) {
+  @media screen and (width>=1000px) {
     grid-column: 1 / 3;
   }
 }
+
 .intro {
   color: #263fa9;
   font-size: 1.2rem;
   font-weight: 400;
-  margin-bottom: 1rem;
-  @media screen and (min-width: 632px) and (max-width: 680px) {
-    margin: 0;
-  }
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 1.8333rem + 0.8333vw, 2.5rem);
   font-weight: 500;
   color: #000000;
-  margin-bottom: 1rem;
-  @media screen and (min-width: 632px) and (max-width: 680px) {
-    margin: 0;
-    font-size: 2.25rem;
-  }
 }
+
 .team-text {
-  font-size: 1.2rem;
+  font-size: clamp(1.1rem, 1.05rem + 0.25vw, 1.25rem);
   color: #394150;
   max-width: 450px;
-  @media screen and (min-width: 632px) and (max-width: 680px) {
-    margin: 0;
-    font-size: 1.1rem;
-  }
+  margin-bottom: clamp(1.5rem, 3rem + -7.5vw, 0rem);
 }
 
 .member {
@@ -95,19 +87,21 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   color: #fffefe;
-
   padding: 3rem 2rem;
 }
+
 .member-name {
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem);
   font-weight: 500;
 }
+
 .member-job {
-  font-size: 1rem;
+  font-size: clamp(0.75rem, 0.6591rem + 0.4545vw, 1rem);
   font-weight: 400;
 }
+
 .see-more {
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem);
   font-weight: 500;
   color: #394150;
 }
@@ -123,84 +117,81 @@ h1 {
   background-color: #c1b6f8;
   background-image: url("./resources/Gradient.svg"),
     url("./resources/person_1.png");
-  @media screen and (width>=640px) {
-    border-top-right-radius: 2rem;
-  }
-  @media screen and (width>=948px) {
-    border-radius: 0;
+
+  @media screen and (width>=1000px) {
     background-image: url("./resources/Gradient.svg"),
       url("./resources/person_1@2x.png");
   }
 }
+
 .sophia {
   background-color: #edacd2;
   background-image: url("./resources/Gradient.svg"),
     url("./resources/person_2.png");
-  @media screen and (width>=948px) {
+
+  @media screen and (width>=1000px) {
     background-image: url("./resources/Gradient.svg"),
       url("./resources/person_2@2x.png");
-  }
-  @media screen and (width>=1263px) {
     border-top-right-radius: 2rem;
   }
 }
+
 .ethan {
   background-color: #9dc4f8;
   background-image: url("./resources/Gradient.svg"),
     url("./resources/person_3.png");
 
-  @media screen and (width>=948px) {
-    grid-row: 2;
+  @media screen and (width>=1000px) {
     background-image: url("./resources/Gradient.svg"),
       url("./resources/person_3@2x.png");
-  }
-
-  @media screen and (width>=1263px) {
     grid-row: 2;
     grid-column: 2 / 3;
   }
 }
+
 .ricci {
   background-color: #f8d8b0;
   background-image: url("./resources/Gradient.svg"),
     url("./resources/person_4.png");
-  @media screen and (width>=948px) {
+
+  @media screen and (width>=640px) {
     grid-column: 2 / 3;
-    grid-row: 3;
+  }
+  @media screen and (width>=1000px) {
     background-image: url("./resources/Gradient.svg"),
       url("./resources/person_4@2x.png");
-  }
-  @media screen and (width>=1263px) {
     grid-row: 2;
     grid-column: 3/ 4;
   }
 }
+
 .noah {
   background-color: #86e7d4;
   background-image: url("./resources/Gradient.svg"),
     url("./resources/person_5.png");
-  @media screen and (width>=948px) {
+
+  @media screen and (width>=640px) {
     grid-column: 3 / 4;
-    grid-row: 3;
     border-bottom-right-radius: 2rem;
+  }
+  @media screen and (width>=1000px) {
     background-image: url("./resources/Gradient.svg"),
       url("./resources/person_5@2x.png");
-  }
-  @media screen and (width>=1263px) {
     grid-row: 2;
     grid-column: 4/ 5;
   }
 }
+
 .more {
   background-color: #f3f4f6;
-
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
-  @media screen and (width>=948px) {
+
+  @media screen and (width>=640px) {
     grid-column: 1 / 2;
     grid-row: 3;
   }
-  @media screen and (width>=1263px) {
+  @media screen and (width>=1000px) {
     grid-row: 2;
   }
 }
@@ -212,8 +203,8 @@ h1 {
 .member:hover {
   filter: brightness(1.05);
   transform: scale(1.02);
-  transition: transform 0.3s ease, filter 0.3s ease;
 }
+
 #back-btn {
   position: fixed;
   top: 10px;
