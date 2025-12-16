@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://simple-feature-sec.netlify.app/">
+    <a href="https://devchallenges-projects.netlify.app/simple-feature-section/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/your-username/simple-feature-section">
+    <a href="https://github.com/krowey-richmond/devChallenges/tree/main/simple-feature-section">
       Solution
     </a>
     <span> | </span>
@@ -22,7 +22,7 @@
 
 ## Overview
 
-[![Screenshot](./thumbnail.jpg)](https://simple-feature-sec.netlify.app/)
+[![Screenshot](./thumbnail.jpg)](https://devchallenges-projects.netlify.app/simple-feature-section/)
 
 A responsive feature section showcasing quality feedback solutions for SaaS products. This project demonstrates modern CSS techniques and responsive design principles.
 
@@ -54,7 +54,7 @@ A responsive feature section showcasing quality feedback solutions for SaaS prod
  
 1. **Clone the repo**  
    ```sh  
-   git clone https://github.com/77Kromo/simple-feature-section.git  
+   git clone https://github.com/krowey-richmond/devChallenges.git
    ```  
 2. **Customize**  
    - Edit `index.html` (content) and `style.css` (styling)  
@@ -67,8 +67,12 @@ A responsive feature section showcasing quality feedback solutions for SaaS prod
 - Google Fonts for the Outfit typeface
 - Modern CSS techniques for responsive design
 
-## Author
+## 👤 Author
 
-- GitHub: [77Kromo](https://github.com/krowey-richmond)
+**Krowey Richmond Borquaye**
+
+- GitHub: [Richmond](https://github.com/krowey-richmond)
 - X : [Kromo77](https://x.com/kromo772004)
-- LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond)
+- LinkedIn: [Krowey Richmond Borquaye](https://www.linkedin.com/in/krowey-richmond/)
+- Frontend Mentor: [@77Kromo](https://www.frontendmentor.io/profile/krowey-richmond)
+- DevChallenges: [@77Kromo](https://devchallenges.io/profile/90c5b7e3-be42-4213-a713-cfb0ac4c18bd)
