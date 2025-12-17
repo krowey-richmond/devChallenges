@@ -69,6 +69,10 @@ article {
   padding: 1.5rem;
   border-radius: 6px;
   transition: border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 article:hover {
@@ -109,7 +113,7 @@ article a:focus {
 }
 
 .badge {
-  display: inline-block;
+display: inline-block;
   font-size: 0.75rem;
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
