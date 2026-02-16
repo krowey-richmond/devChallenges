@@ -1,65 +1,248 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       rel="icon"
       href="resources/favicon.ico"
       type="image/x-icon"
       sizes="96x96"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Simple Homepage - Alarado | devChallenges.io</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <img src="./resources/logo-light.svg" alt=" Alarado logo" />
+    <!-- HEADER -->
+    <header class="header container">
+      <div class="header__logo">
+        <img src="./resources/logo-light.svg" alt="Alarado logo" />
       </div>
+      <div class="nav__theme">
+        <nav class="header__nav">
+          <ul class="header__nav--list">
+            <li class="header__nav--item"><a href="#">About us</a></li>
+            <li class="header__nav--item"><a href="#">Product</a></li>
+            <li class="header__nav--item"><a href="#">Resource</a></li>
+            <li class="header__nav--item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
 
-      <nav>
-        <ul>
-          <li class="nav__link"><a href="#"> About us</a></li>
-          <li class="nav__link"><a href="#">Product</a></li>
-          <li class="nav__link"><a href="#">Resource</a></li>
-          <li class="nav__link"><a href="#"> Contact</a></li>
-        </ul>
-      </nav>
-
-      <!-- From Uiverse.io by alexruix -->
-      <label class="switch">
-        <input type="checkbox" />
-        <span class="slider"></span>
-      </label>
+        <input type="checkbox" id="theme-toggle" />
+        <label for="theme-toggle" class="theme-switch">
+          <svg
+            class="moon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 4C16.66 5.67 17.5 7.84 17.5 10
+       C17.5 14.14 14.14 17.5 10 17.5
+       C7.84 17.5 5.67 16.66 4 15
+       C5.17 19.06 8.95 22 13.5 22
+       C19.3 22 24 17.3 24 11.5
+       C24 6.95 21.06 3.17 17 2
+       C16.34 2 15.66 2.67 15 4Z"
+              fill="currentColor"
+            />
+          </svg>
+          <svg
+            class="sun"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="12" cy="12" r="4" fill="currentColor" />
+            <path
+              d="M12 5V3"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M12 21V19"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M16.95 7.04996L18.3643 5.63574"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M5.63608 18.3644L7.05029 16.9502"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M19 12L21 12"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M3 12L5 12"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M16.95 16.95L18.3643 18.3643"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M5.63608 5.63559L7.05029 7.0498"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </label>
+        <button class="hamburger close">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="7.16113"
+              y="23.2176"
+              width="22"
+              height="3"
+              rx="1.5"
+              transform="rotate(-45 7.16113 23.2176)"
+              fill="currentColor"
+            />
+            <rect
+              x="9.28223"
+              y="7.66116"
+              width="22"
+              height="3"
+              rx="1.5"
+              transform="rotate(45 9.28223 7.66116)"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
+      <button class="hamburger menu">
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="5"
+            y="8"
+            width="22"
+            height="3"
+            rx="1.5"
+            fill="currentColor"
+          />
+          <rect
+            x="5"
+            y="15"
+            width="22"
+            height="3"
+            rx="1.5"
+            fill="currentColor"
+          />
+          <rect
+            x="5"
+            y="22"
+            width="22"
+            height="3"
+            rx="1.5"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
     </header>
 
-    <main>
+    <!-- HERO SECTION -->
+    <main class="hero container">
+      <picture class="hero__image--container">
+        <source
+          srcset="resources/hero-image-simple-homepage@2x.png"
+          media="(max-width: 860px)"
+        />
+        <img
+          src="resources/hero-image-simple-homepage.png"
+          alt="Hero image"
+          class="hero__image"
+        />
+      </picture>
+
       <div class="hero__text">
         <p class="hero__emoji">😎 Simple way to communicate</p>
         <h1 class="hero__title">Actions for Accessibility in Design</h1>
-
         <p class="hero__message">
           The fastest way to build and deploy websites with reusable components.
         </p>
         <div class="hero__buttons">
-          <button>Get Started</button>
-          <a href="#"> Get live demo</a>
+          <button class="hero__button">Get Started</button>
+          <a href="#" class="hero__button--link">Get live demo</a>
         </div>
         <div class="hero__policy">
-          <p>No credit card required</p>
-          <p>No software to install</p>
+          <p>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 21C16.9706 21 21 16.9706 21 12C21 10.1666 20.4518 8.46124 19.5103 7.03891L12.355 14.9893C11.6624 15.7589 10.4968 15.8726 9.66844 15.2513L6.4 12.8C5.95817 12.4686 5.86863 11.8418 6.2 11.4C6.53137 10.9582 7.15817 10.8686 7.6 11.2L10.8684 13.6513L18.214 5.48955C16.5986 3.94717 14.4099 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                fill="#4CA154"
+              />
+            </svg>
+
+            No credit card required
+          </p>
+          <p>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 21C16.9706 21 21 16.9706 21 12C21 10.1666 20.4518 8.46124 19.5103 7.03891L12.355 14.9893C11.6624 15.7589 10.4968 15.8726 9.66844 15.2513L6.4 12.8C5.95817 12.4686 5.86863 11.8418 6.2 11.4C6.53137 10.9582 7.15817 10.8686 7.6 11.2L10.8684 13.6513L18.214 5.48955C16.5986 3.94717 14.4099 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                fill="#4CA154"
+              />
+            </svg>
+            No software to install
+          </p>
         </div>
       </div>
-      <div class="hero__image">
-        <img
-          src="./resources/hero-image-simple-homepage.png"
-          alt="hero image"
-        />
-      </div>
     </main>
-
-    -->
+    <script src="script.js"></script>
   </body>
 </html>
