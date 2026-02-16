@@ -1,86 +1,62 @@
-<!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
-
-<div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/simple-hompage-alarado" target="_blank">Simple Homepage - Alarado </a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
-</div>
-
-<div align="center">
-  <h3>
-    <a href="{https://your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenge/simple-hompage-alarado">
-      Challenge
-    </a>
-  </h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Built with](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
+# Alarado - Simple Homepage
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- What have you learned/improved?
-- Your wisdom? :)
--->
-
-### What I learned
-
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
-
-### Useful resources
-
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
-
-### Built with
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+This is a beginner-friendly project to build a **simple homepage** using **HTML, CSS, and JavaScript**.
+It focuses on creating a responsive layout, adding a **dark/light theme toggle**, and implementing **mobile navigation**.
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+* Simple homepage layout with **logo, heading, description, links, and buttons**
+* **Dark and light mode toggle** using JavaScript and CSS custom properties
+* **Responsive design** for desktop and mobile
+* **Side navigation** for mobile devices
+* Smooth **hover effects** for links and buttons
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
+## Goals
 
-## Acknowledgements
+The goals of this project are to:
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+* Gain experience manipulating the DOM with **JavaScript**
+* Practice using **CSS variables** for theming
+* Learn to create **responsive layouts** using CSS flexbox and grid
+* Implement a **mobile-friendly hamburger menu**
+* Understand **user interactions** like toggles and buttons
 
-## Author
+## Requirements
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+Your web page should include:
+
+* Logo and branding
+* Heading and short description
+* Navigation links
+* Call-to-action buttons
+* Toggle between light and dark mode (default is light)
+* CSS styling to match the design
+* Responsive layout for different screen sizes
+* Side navigation toggle on mobile
+
+## Tech Stack
+
+* **HTML** – structure of the webpage
+* **CSS** – styling and responsive layout
+* **CSS Custom Properties** – for theme colors and fonts
+* **JavaScript** – toggle dark/light mode, mobile menu
+
+## Usage
+
+1. Clone or download the project
+2. Open `index.html` in your browser
+3. Click the **theme toggle** to switch between light and dark mode
+4. On mobile, click the **hamburger menu** to open/close side navigation
+
+## Learning Outcomes
+
+After completing this project, you will:
+
+* Understand **how JS interacts with HTML and CSS**
+* Gain confidence with **CSS custom properties**
+* Learn to create **mobile-first responsive designs**
+* Be able to implement **simple interactive features** on a homepage
+
