@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,87 +12,120 @@
     />
 
     <title>Pricing Table | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <!-- 
-      Pricing & Plans
-      
-      Discover the plan that unlocks the transformative power of digital art and join our vibrant community today.
-      
-      Website number
-      
-      Server storage
-      
-      Database
-      
-      Unmetered Bandwidth
-      
-      SSD Disk
-      
-      VCPUS Fontworld
-      
-      Worldpress install
-      
-      Server speed
-      
-      Free
-      
-      $0
-      
-      Per month
-      
-      100 GB
-      
-      Get Started
-      
-      Team
-      
-      $59
-      
-      500 GB
-      
-      Popular
-      
-      $99
-      
-      1 TB
-      
-      Unlimited
-      
-      Enterprise
-      
-      $299
-  -->
+    <div class="pricing-wrapper">
+      <!-- header with description (copies provided text) -->
+      <div class="section-header">
+        <h2>Pricing & Plans</h2>
+        <p>
+          Discover the plan that unlocks the transformative power of digital art
+          and join our vibrant community today.
+        </p>
+      </div>
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+      <!-- 4‑column table (exactly four options) -->
+      <div class="pricing-table">
+        <!-- COLUMN 1 : Free -->
+        <div class="pricing-col">
+          <div class="card">
+            <div class="plan-name">Free</div>
+            <div class="price-row">
+              <span class="currency">$</span>
+              <span class="amount">0</span>
+              <span class="period">Per month</span>
+            </div>
+            <!-- storage line: 100 GB -->
+            <div class="storage-row">100 GB <span>SSD</span></div>
+            <ul class="features">
+              <li>Website number</li>
+              <li>Server storage</li>
+              <li>Database</li>
+              <li class="muted">Unmetered Bandwidth</li>
+              <li class="muted">SSD Disk</li>
+              <li class="muted">VCPUS Fontworld</li>
+              <li class="muted">Wordpress install</li>
+              <li class="muted">Server speed</li>
+            </ul>
+            <div class="btn">Get Started</div>
+          </div>
+        </div>
+
+        <!-- COLUMN 2 : Team -->
+        <div class="pricing-col">
+          <div class="card">
+            <div class="plan-name">Team</div>
+            <div class="price-row">
+              <span class="currency">$</span>
+              <span class="amount">59</span>
+              <span class="period">Per month</span>
+            </div>
+            <div class="storage-row">500 GB <span>SSD</span></div>
+            <ul class="features">
+              <li>Website number</li>
+              <li>Server storage</li>
+              <li>Database</li>
+              <li>Unmetered Bandwidth</li>
+              <li>SSD Disk</li>
+              <li class="muted">VCPUS Fontworld</li>
+              <li class="muted">Wordpress install</li>
+              <li class="muted">Server speed</li>
+            </ul>
+            <div class="btn btn-primary">Get Started</div>
+          </div>
+        </div>
+
+        <!-- COLUMN 3 : Popular (with absolute badge) -->
+        <div class="pricing-col">
+          <div class="card" style="overflow: visible">
+            <div class="popular-badge">🔥 most popular</div>
+            <div class="plan-name">Popular</div>
+            <div class="price-row">
+              <span class="currency">$</span>
+              <span class="amount">99</span>
+              <span class="period">Per month</span>
+            </div>
+            <div class="storage-row">1 TB <span>NVMe</span></div>
+            <ul class="features">
+              <li>Website number</li>
+              <li>Server storage</li>
+              <li>Database</li>
+              <li>Unmetered Bandwidth</li>
+              <li>SSD Disk</li>
+              <li>VCPUS Fontworld</li>
+              <li>Wordpress install</li>
+              <li class="muted">Server speed</li>
+            </ul>
+            <div class="btn btn-primary">Get Started</div>
+          </div>
+        </div>
+
+        <!-- COLUMN 4 : Enterprise -->
+        <div class="pricing-col">
+          <div class="card">
+            <div class="plan-name">Enterprise</div>
+            <div class="price-row">
+              <span class="currency">$</span>
+              <span class="amount">299</span>
+              <span class="period">Per month</span>
+            </div>
+            <div class="storage-row">
+              <span class="unlimited-text">Unlimited</span> <span>SSD</span>
+            </div>
+            <ul class="features">
+              <li>Website number</li>
+              <li>Server storage</li>
+              <li>Database</li>
+              <li>Unmetered Bandwidth</li>
+              <li>SSD Disk</li>
+              <li>VCPUS Fontworld</li>
+              <li>Wordpress install</li>
+              <li>Server speed</li>
+            </ul>
+            <div class="btn btn-primary">Get Started</div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
