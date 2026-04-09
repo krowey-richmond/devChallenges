@@ -391,7 +391,6 @@ input:checked + .theme-switch svg.moon {
   }
 }
 
-
 #back-btn {
   position: fixed;
   top: 10px;
