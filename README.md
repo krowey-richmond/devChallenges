@@ -4,7 +4,7 @@ This repository serves as a **central hub** for my DevChallenges projects. Each 
 
 The focus of this repository is **clarity, structure, and frontend fundamentals**—showing how individual challenge solutions fit into a coherent, professional workflow.
 
-🔗 **[View Live Demo](https://devchallenges-projects.netlify.app/)**
+🔗 **[View Live Demo](https://devchallenges-krb.netlify.app/)**
 
 ---
 
@@ -104,4 +104,4 @@ Consistency and discipline matter more than volume.
 JavaScript Developer
 
 - GitHub: [@krowey-richmond](https://github.com/krowey-richmond)
-- Live Portfolio: [devchallenges-projects.netlify.app](https://devchallenges-projects.netlify.app/)
+- Live Portfolio: [devchallenges-projects.netlify.app](https://devchallenges-krb.netlify.app/)
