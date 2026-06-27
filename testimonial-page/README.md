@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges-projects.netlify.app/testimonial-page/">
+    <a href="https://krowey-richmond.github.io/devChallenges/testimonial-page/">
       Demo
     </a>
     <span> | </span>
@@ -31,7 +31,7 @@
 
 ## Overview
 
-[![Screenshot of the Testimonial Page](./assets/screenshot.png)](https://devchallenges-projects.netlify.app/testimonial-page/)
+[![Screenshot of the Testimonial Page](./assets/screenshot.png)](https://krowey-richmond.github.io/devChallenges/testimonial-page/)
 
 This testimonial page was created as a solution to the devChallenges.io Testimonial Page challenge. The page features a responsive layout that displays reviewer information, star ratings, and testimonials from different companies.
 

@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges-projects.netlify.app/blog-card/">
+    <a href="https://krowey-richmond.github.io/devChallenges/simple-blog-card">
       Live Demo
     </a>
     <span> | </span>

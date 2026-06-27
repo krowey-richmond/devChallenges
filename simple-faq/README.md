@@ -56,6 +56,6 @@ This is a simple, responsive Frequently Asked Questions (FAQ) webpage built usin
 
 ## Live Preview
 
-*[Click Here](https://devchallenges-projects.netlify.app/simple-faq/)*
+*[Click Here](https://krowey-richmond.github.io/devChallenges/simple-faq/)*
 
 

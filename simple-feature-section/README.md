@@ -6,12 +6,8 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges-projects.netlify.app/simple-feature-section/">
+    <a href="https://krowey-richmond.github.io/devChallenges/simple-feature-section">
       Demo
-    </a>
-    <span> | </span>
-    <a href="https://github.com/krowey-richmond/devChallenges/tree/main/simple-feature-section">
-      Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenge/simple-feature-section-challenge">
@@ -22,7 +18,7 @@
 
 ## Overview
 
-[![Screenshot](./thumbnail.jpg)](https://devchallenges-projects.netlify.app/simple-feature-section/)
+[![Screenshot](./thumbnail.jpg)](https://krowey-richmond.github.io/devChallenges/simple-feature-section)
 
 A responsive feature section showcasing quality feedback solutions for SaaS products. This project demonstrates modern CSS techniques and responsive design principles.
 

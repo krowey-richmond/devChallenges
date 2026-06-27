@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges-projects.netlify.app/simple-article-listing/">
+    <a href="https://krowey-richmond.github.io/devChallenges/simple-article-listing/">
       Live Demo
     </a>
     <span> | </span>
@@ -22,7 +22,7 @@
 </div>
 
 ## Overview
-[![Project Screenshot](./resources/screenshot.png)](https://simple-article-list.netlify.app/)
+[![Project Screenshot](./resources/screenshot.png)](https://krowey-richmond.github.io/devChallenges/simple-article-listing)
 
 A responsive article listing page featuring technology topics with clean typography and adaptive layout.
 

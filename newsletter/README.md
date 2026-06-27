@@ -1,7 +1,7 @@
 # Newsletter Signup | devChallenges
 
 <p align="center">
-  <a href="https://devchallenges-projects.netlify.app/newsletter/">Live Demo</a> &#124; 
+  <a href="https://krowey-richmond.github.io/devChallenges/newsletter/">Live Demo</a> &#124; 
   <a href="https://devchallenges.io/challenge/join-our-newsletter">Challenge</a>
 </p>
 
@@ -44,7 +44,6 @@ Responsive newsletter subscription form with smooth transitions and mobile optim
 ## 👤 Author
 
 **Krowey Richmond Borquaye**
-Javascript Developer (in progress)
 
 - GitHub: [Richmond](https://github.com/krowey-richmond)
 - X : [Kromo77](https://x.com/kromo772004)

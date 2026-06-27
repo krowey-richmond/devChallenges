@@ -1,11 +1,11 @@
 # Meet the Team Section | devChallenges
 
 <div align="center">
-  <a href="https://team-layout.netlify.app/" target="_blank">
+  <a href="https://krowey-richmond.github.io/devChallenges/our-team-layout/" target="_blank">
     <img src="./thumbnail.jpg" alt="Project Preview" width="600" />
   </a>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Preview-red)](https://team-layout.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Preview-red)](https://krowey-richmond.github.io/devChallenges/our-team-layout/)
 [![Solution Code](https://img.shields.io/badge/-Solution%20Code-blue)](https://github.com/krowey-richmond/our-team-layout)
 
 </div>
@@ -62,8 +62,9 @@ open index.html
 ```
 
 ## 👨‍💻 Author
+
 **Krowey Richmond Borquaye**
 
 - [GitHub](https://github.com/krowey-richmond/our-team-layout)
-- [LinkedIn](https://www.linkedin.com/in/krowey-richmond)  
+- [LinkedIn](https://www.linkedin.com/in/krowey-richmond)
 - [Twitter](https://x.com/kromo772004)
